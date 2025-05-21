@@ -74,7 +74,7 @@ This script uses a pre-trained CLIP model to compute predictions on real or synt
 - For **MEPS**: 
 To get MEPS dataset please follow the instruction of:
 `sppi/scripts/get_meps_data/README.md` originally written by [CQR](https://github.com/yromano/cqr/blob/master/get_meps_data/README.md). Then use the script:
-`ppi/scripts/generate_scores/generate_scores_meps.py`
+`sppi/scripts/generate_scores/generate_scores_meps.py`
 This script trains a quantile regression model and generates predictions at specified α levels.
 
 ---
